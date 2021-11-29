@@ -38,6 +38,7 @@ public class Scenario {
      *
      * @param b le bandeau ou s'afficher.
      */
+    /** Ajout d'un Thread d'une Synchronisation et Lock des bandeaux */
     synchronized public void playOn(Bandeau b) {
         Thread t = new Thread{
             public void run (){
